@@ -12,13 +12,13 @@ body {
 }
 
 .sidebar__navigation {
-    background-color: #2a4a51;
+    background-color: #387478;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .sidebar__navigation .logo {
-    background: #2a4a51;
+    background: #387478;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -47,7 +47,7 @@ body {
 }
 
 .library {
-    background-color: #2a4a51;
+    background-color: #387478;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -79,7 +79,7 @@ body {
     padding: 20px 10px;
 }
 
-.library .library__button .fa{
+.library .libary__button .fa{
     font-size: 20px;
     font-weight: 300;
     color: #E2F1E7;
@@ -91,12 +91,16 @@ body {
     margin: 24px 10px;
 }
 
+.library .library__content .fa-book {
+    margin-right: 10px;
+}
+
 .section-playlist {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #387478;
+    background-color: #629584;
     border-radius: 8px;
     color: #E2F1E7;
     font-weight: 600;
@@ -113,7 +117,6 @@ body {
 .section-playlist__content .text {
     padding-bottom: 14px;
     color: #E2F1E7;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .title {
@@ -151,7 +154,6 @@ body {
     color: #E2F1E7;
     font-weight: 500; 
     font-size: 10px;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
 }
 
@@ -161,8 +163,7 @@ body {
 
 .languages .languages__button {
     background-color:transparent;
-    border: 1px solid #E2F1E7;
-    border-radius: 20px;
+    border: 1px solid #387478;
     color: #E2F1E7;
     cursor: pointer;
     align-items: center;

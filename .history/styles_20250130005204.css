@@ -91,12 +91,16 @@ body {
     margin: 24px 10px;
 }
 
+.library .library__content .fa-book {
+    margin-right: 10px;
+}
+
 .section-playlist {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #387478;
+    background-color: #4d8185;
     border-radius: 8px;
     color: #E2F1E7;
     font-weight: 600;
